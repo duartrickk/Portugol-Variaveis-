@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real precoOriginal, desconto, precoFinal
+
+    precoOriginal = 250.00
+
+    desconto = 50.00
+
+    precoFinal = precoOriginal - desconto
+
+    escreva ("o preço final com o desconto é: R$", precoFinal)
+  }
+}
